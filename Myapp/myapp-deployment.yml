@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: asia.gcr.io/wordpress-project-313704/myweb:httpd
+        image: asia.gcr.io/wordpress-project-313704/myweb:httpdv2
         ports:
         - containerPort: 80
